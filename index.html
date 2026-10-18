@@ -83,6 +83,21 @@ footer img{width:60px;height:60px;border-radius:50%;display:block;margin:0 auto 
 .swatches{display:flex;gap:8px;align-items:center}
 .sw{width:26px;height:26px;border-radius:50%;border:2px solid var(--line);cursor:pointer;padding:0}
 .sw.on{outline:3px solid var(--pink);outline-offset:2px}
+@media(max-width:600px){
+.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.card:hover{transform:none}
+.card h3{font-size:1rem;line-height:1.2}
+.card .tx{padding:10px 10px 12px}
+.card .tag{font-size:.75rem}
+.price{font-size:.9rem}
+.card .ph span{font-size:.65rem;padding:0 7px}
+.heart{width:28px;height:28px;left:6px;top:6px;font-size:.9rem}
+.bar{flex-wrap:wrap;gap:4px 12px;padding:8px 14px}
+.bar img{width:44px;height:44px}
+.brand{font-size:1.25rem}
+.bar nav{margin-left:0;width:100%;justify-content:space-between;gap:8px}
+.bar nav a{font-size:.85rem}
+}
 </style>
 </head>
 <body>
